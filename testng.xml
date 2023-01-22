@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="deviceUDID" value="00008101-001E05300C52001E">
+    <test verbose="2" preserve-order="true"
+          name="Mobile automation Report">
+        <classes>
+            <class name="testcases.TC_001">
+            </class>
+        </classes>
+    </test>
+    </parameter>
+</suite>
